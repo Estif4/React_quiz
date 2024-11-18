@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(
+    125deg,
+    #e1b2cd 0%,
+    #a9cea5 50%,
+    #0b86c5 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw; /* Full viewport width */
+  height: 2000px;
+  margin: 0; /* Remove default margin from body */
+}
+
+.quiz-finshed {
+  transform: translateY(30px);
+  transition: transform 0.8s ease-out;
+}
