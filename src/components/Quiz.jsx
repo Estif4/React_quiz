@@ -107,7 +107,7 @@ export default function Quiz() {
                   ? isCorrect
                     ? "bg-green-400" // Correct answer
                     : "bg-red-500" // Incorrect answer
-                  : "bg-blue-500 hover:bg-blue-700"; // Default color
+                  : "bg-blue-500 "; // Default color
 
               return (
                 <button
